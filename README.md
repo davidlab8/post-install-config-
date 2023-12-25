@@ -33,8 +33,11 @@ This tutorial outlines the post-install configuration of the open-source help de
           Inside ( Include folder ) rename file ( ost-sampleconfig to ost-config ) Assign permission to ost-config file allowing 
           everybody to use.
 
-- Step 4. 
-   
+- Step 4. Osticket installer menu fill out the following. help desk name, email admin name, email username, and password
+          Install Heidi SQL create database user, password
+          fillout rest of the Osticket menu install software, Log in using admin username and password.
+
+     
 <h2>Configuration Steps</h2>
 
 <p>
