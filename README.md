@@ -3,7 +3,7 @@ R<p align="center">
 </p>
 
 <h1>osTicket - Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
 <h2>Video Demonstration</h2>
@@ -56,7 +56,7 @@ Install PHP manager and Rewrite mode from simple list lab instructions
 Create a directory (file) inside Windows C drive go to file folder, this pc, Windows C drive, create new file (name file PHP) 
 download PHP 7.38 (right click) extract, browse look for empty PHP folder inside C drive, extract will put files inside PHP 
 
-Download Vc Redist and My Sql from simple list on my sql menu click typical install, standard config, name Root Pass make one up.
+Download Vc Redist and My Sql from simple list on my sql menu click typical install, standard config, name Root Password make one up.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
