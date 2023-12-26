@@ -35,7 +35,9 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Step 4. Osticket installer menu fill out the following. help desk name, email admin name, email username, and password
           Install Heidi SQL create database user, password
-          fillout rest of the Osticket menu install software, Log in using admin username and password. 
+          fillout rest of the Osticket menu install software.
+
+- Step 5. Clean up erase Setup folder in Root file, set permission to read only and log in help desk using admin user name and password.
 
      
 <h2>Configuration Steps</h2>
@@ -88,6 +90,7 @@ make up password, open
 
 Creating database (Heidi Sql menu) (right click) unamed, create new, database, (name it) osticket, install
 fill out rest of the osticket installer menu mysql name: root, mysql password:, install now (osticket program succesfully installed) 
+](http://localhost/osTicket/scp/login.php)http://localhost/osTicket/scp/login.php Adm user name, password.
 
 
 
