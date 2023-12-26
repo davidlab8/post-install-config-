@@ -83,6 +83,11 @@ full control, apply (now everyone can use ost-config file )
 
 Osticket menu fill out the following: help desk name and email, Admin first, last name, email, username, password. 
 
-Create database for Osticket 
+Set-up database for Osticket download and install Heidi Sql from (simple list) (Heidi Sql menu) new, settings username root, 
+make up password, open
+
+Creating database (Heidi Sql menu) (right click) unamed, create new, database, (name it) osticket, install
+fill out rest of the osticket installer menu mysql name: root, mysql password:, install now (osticket program succesfully installed) 
+
 
 
