@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Post-Install Configuration</h1>
+<h1>osTicket - Install Configuration</h1>
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
@@ -20,7 +20,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 - Windows 10</b> (21H2)
 
-<h2>Post-Install Configuration Objectives</h2>
+<h2>Install Configuration Objectives</h2>
 
 - Step 1. Configuring IIS on Windows using CGI, download install PHP Manager Rewrite mode, Create a directory (file) in Windows C drive 
           install PHP 7.38 file extract this file into empty file on C-drive naming it PHP.
@@ -44,18 +44,23 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Step 1. Installing IIS in windows with CGI in start menu type (control panel) go to programs, turn windows features on/off, 
+        (windows features menu) go to Internet informaation Service, World wide web services, inside Application development features 
+        (check box CGI) make sure (common HTTP features) and (IIS management console) are selected as well.
+        
+Install PHP manager and Rewrite mode from simple list lab instructions
+(https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVcGFildWMRig/edit#bookmark=id.cajb4ktub1km)</p>
+
+Create a directory (file) inside Windows C drive go to file folder, this pc, Windows C drive, create new file (name file PHP) 
+download PHP 7.38 (right click) extract, browse look for empty PHP folder inside C drive, extract will put files inside PHP 
+
+Download Vc Redist and My Sql from simple list on my sql menu click typical install, standard config, name Root Pass make one up.
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
+Step 2. 
  <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
