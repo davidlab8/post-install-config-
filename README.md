@@ -77,6 +77,12 @@ Rename file ossample.config to ost-config file is on windows c drive inside osti
   <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>Step 4. 
+<p>Step 4. Assign permission on ost-config file (right click) ost-config file property, security, advanced, disable inheritance,
+remove all inherited permission from object, add (permission) select principal, (type) everyone, check names, (basic permission) 
+full control, apply (now everyone can use ost-config file )
+
+Osticket menu fill out the following: help desk name and email, Admin first, last name, email, username, password. 
+
+Create database for Osticket 
 
 
