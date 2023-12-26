@@ -90,7 +90,17 @@ make up password, open
 
 Creating database (Heidi Sql menu) (right click) unamed, create new, database, (name it) osticket, install
 fill out rest of the osticket installer menu mysql name: root, mysql password:, install now (osticket program succesfully installed) 
-](http://localhost/osTicket/scp/login.php)http://localhost/osTicket/scp/login.php Adm user name, password.
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>Step 5. Clean up erase setup folder in root file (file folder) thispc, win-c, instpub, www.root, inside (osticket folder) 
+erase setup folder.
 
+Set permissions for read-only go to (include folder), ost-config file, (right click), properties, security, advanced, (click) everyone
+edit, leave Read and Read & execute boxes checked only, apply
+
+Log in help desk osticket 
+(http://localhost/osTicket/scp/login.php)http://localhost/osTicket/scp/login.php
+type admin username and password.
 
