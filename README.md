@@ -1,4 +1,4 @@
-<p align="center">
+R<p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
@@ -60,7 +60,26 @@ Download Vc Redist and My Sql from simple list on my sql menu click typical inst
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2. 
+Step 2. Register new PHP version to PHP manager go to start type iis (run as admin) PHP manager, register new PHP version,
+        Browse, look for PHP CGI under PHP folder located inside Windows C-drive.
+
+install Osticket inside file there is (Upload folder) open file folder, this pc, win c, inetub, www.root drag (upload) folder inside www.root folder name folder (Osticket).
+
+Step 3. Go to IIS manager page sites> defaualt> Osticket folder, (action manage folder), Browse 80 (Osticket installer page appears)
+Enable files for Osticket IIS manager menu go to PHP manager, enable or disable, enable following: php_imap, php_intl, php_opchache
+(refresh Osticket installer)
+
+
+Rename file ossample.config to ost-config file is on windows c drive inside osticket upload folder.
+
+Assign permission on ost-config file (so everyone can use) (right click) ost-config file, property, security, advanced, 
+disable inheritance, remove all inherited permission from object, add, (permission) select principal, (type) everyone, check names,
+(basic permission) full control, ok then apply. (everyone has permission on ost-config file)
+
+Step 4.
+
+
+
  <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
