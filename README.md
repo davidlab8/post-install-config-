@@ -76,40 +76,40 @@ on My Sql menu click typical install, standard config, name Root Password Passwo
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  install Osticket inside file there is (Upload folder) open file folder, this pc, win c, inetub, www.root drag (upload) folder inside www.root folder name folder (Osticket)  
   
-  
-  Step 3. Go to IIS manager page sites> defaualt> Osticket folder, (action manage folder), Browse 80 (Osticket installer page appears)
-Enable files for Osticket IIS manager menu go to PHP manager, enable or disable, enable following: php_imap, php_intl, php_opchache
+ -Step 3.install Osticket inside file there is (Upload folder) open file folder, this pc, win c, inetub, www.root drag (upload) folder inside www.root folder name folder (Osticket)
+ -  Go to IIS manager page sites> defaualt> Osticket folder, (action manage folder), Browse 80 (Osticket installer page appears)
+ - Enable files for Osticket IIS manager menu go to PHP manager, enable or disable, enable following: php_imap, php_intl, php_opchache
 (refresh Osticket installer)
 
-
-Rename file ossample.config to ost-config file is on windows c drive inside osticket upload folder.
-  <p>
+<p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>Step 4. Assign permission on ost-config file (right click) ost-config file property, security, advanced, disable inheritance,
+<p>
+  -Step 4. Rename file ossample.config to ost-config file is on windows c drive inside osticket upload folder.  
+  
+   - Assign permission on ost-config file (right click) ost-config file property, security, advanced, disable inheritance,
 remove all inherited permission from object, add (permission) select principal, (type) everyone, check names, (basic permission) 
 full control, apply (now everyone can use ost-config file )
 
-Osticket menu fill out the following: help desk name and email, Admin first, last name, email, username, password. 
-
-Set-up database for Osticket download and install Heidi Sql from (simple list) (Heidi Sql menu) new, settings username root, 
+  - Osticket menu fill out the following: help desk name and email, Admin first, last name, email, username, password. 
+  - Set-up database for Osticket download and install Heidi Sql from (simple list) (Heidi Sql menu) new, settings username root, 
 make up password, open
 
-Creating database (Heidi Sql menu) (right click) unamed, create new, database, (name it) osticket, install
+  - Creating database (Heidi Sql menu) (right click) unamed, create new, database, (name it) osticket, install
 fill out rest of the osticket installer menu mysql name: root, mysql password:, install now (osticket program succesfully installed) 
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>Step 5. Clean up erase setup folder in root file (file folder) thispc, win-c, instpub, www.root, inside (osticket folder) 
+<p>
+  -Step 5. Clean up erase setup folder in root file (file folder) thispc, win-c, instpub, www.root, inside (osticket folder) 
 erase setup folder.
 
-Set permissions for read-only go to (include folder), ost-config file, (right click), properties, security, advanced, (click) everyone
+  - Set permissions for read-only go to (include folder), ost-config file, (right click), properties, security, advanced, (click) everyone
 edit, leave Read and Read & execute boxes checked only, apply
 
-Log in help desk osticket 
+  - Log in help desk osticket 
 (http://localhost/osTicket/scp/login.php)http://localhost/osTicket/scp/login.php
 type admin username and password.
 
