@@ -53,32 +53,39 @@ This tutorial is a step by step guide on the install configuration of the Ostick
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 1. Installing IIS in windows with CGI in start menu type (control panel) go to programs, turn windows features on/off, 
+   - Step 1.  On Azure create Resource Group and VM1 (Windows 10), connect VM1 to remote desktop  
+  
+  - Installing IIS in windows with CGI in start menu type (control panel) go to programs, turn windows features on/off, 
        (windows features menu) go to Internet information Service, World wide web services, inside Application development features 
         (check box CGI) make sure (common HTTP features) and (IIS management console) are selected as well.
         
-Install PHP manager and Rewrite mode from simple list lab instructions
-(https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVcGFildWMRig/edit#bookmark=id.cajb4ktub1km)</p>
+  - Install PHP manager and Rewrite mode from simple list lab instructions
 
-Create a directory (file) inside Windows C-drive go to file folder, this pc, Windows C-drive, create new file (name file PHP) 
-download PHP 7.38 (right click) extract, browse, look for empty PHP folder inside C-drive, extract files will start gpong inside PHP folder 
 
-Download Vc Redist and My Sql from simple list
-on My Sql menu click typical install, standard config, name Root Password Password1 as (example).
+
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 2. Register new PHP version to PHP manager go to start type iis (run as admin) PHP manager, register new PHP version,
+- Step 2. Create a directory (file) inside Windows C-drive go to file folder, this pc, Windows C-drive, create new file (name file PHP) 
+download PHP 7.38 (right click) extract, browse, look for empty PHP folder inside C-drive, extract files will start going inside PHP folder 
+
+ - Download Vc Redist and My Sql from simple list
+on My Sql menu click typical install, standard config, name Root Password Password1 as (example).  
+  
+  - Register new PHP version to PHP manager go to start type iis (run as admin) PHP manager, register new PHP version,
         Browse, look for PHP CGI under PHP folder located inside Windows C-drive.
 
-install Osticket inside file there is (Upload folder) open file folder, this pc, win c, inetub, www.root drag (upload) folder inside www.root folder name folder (Osticket).
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<p>Step 3. Go to IIS manager page sites> defaualt> Osticket folder, (action manage folder), Browse 80 (Osticket installer page appears)
+<p>
+  install Osticket inside file there is (Upload folder) open file folder, this pc, win c, inetub, www.root drag (upload) folder inside www.root folder name folder (Osticket)  
+  
+  
+  Step 3. Go to IIS manager page sites> defaualt> Osticket folder, (action manage folder), Browse 80 (Osticket installer page appears)
 Enable files for Osticket IIS manager menu go to PHP manager, enable or disable, enable following: php_imap, php_intl, php_opchache
 (refresh Osticket installer)
 
