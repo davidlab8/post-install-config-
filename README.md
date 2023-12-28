@@ -27,8 +27,6 @@ This tutorial is a step by step guide on the install configuration of the Ostick
   - download install PHP Manager and Rewrite mode from simple list provided by Course careers.
      https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
-
-
 - Step 2. Create a directory (file) in Windows C-drive 
           name file PHP, download and install PHP 7.38 extract this file into empty PHP file.
   - Download, install VC Redit & My SQL,
@@ -61,9 +59,6 @@ This tutorial is a step by step guide on the install configuration of the Ostick
         
   - Install PHP manager and Rewrite mode from simple list lab instructions
 
-
-
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -76,7 +71,6 @@ on My Sql menu click typical install, standard config, name Root Password Passwo
   
   - Register new PHP version to PHP manager go to start type iis (run as admin) PHP manager, register new PHP version,
         Browse, look for PHP CGI under PHP folder located inside Windows C-drive.
-
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
