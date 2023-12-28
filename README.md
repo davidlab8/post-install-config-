@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Install Configuration</h1>
-This tutorial outlines the install configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial is a step by step guide on the install configuration of the Osticket help desk ticketing system.
 
 
 <h2>Video Demonstration</h2>
@@ -20,36 +20,33 @@ This tutorial outlines the install configuration of the open-source help desk ti
 
 - Windows 10</b> (21H2)
 
-<h2>Install Configuration Objectives</h2>
+<h2>Step by Step Install Configuration</h2>
 
-- Step 1. Configuring IIS on Windows using CGI.
-- download install PHP Manager and Rewrite mode.
-- Create a directory (file) in Windows C drive 
-          name it PHP, download and install PHP 7.38 extract this file into empty PHP file.
-
-
-- Step 2. Download, install VC Redit & My SQL,
-- Configure IIS to register new PHP version.
-- Install Osticket, extract, copy (Upload folder) 
-          into www.root name file ( osticket )
-  
-- Step 3. On IIS manager default Osticket (refresh page), browse 80
-- Osticket installer menu should appear,
-          Enable following files on PHP manager ( php.imap, php.intl, php.opcache ).
+- Step 1. On Azure create Resource Group and VM1 (Windows 10), connect VM1 to remote desktop.
+  - Configure IIS on Windows using CGI.
+  - download install PHP Manager and Rewrite mode from simple list provided by Course careers.
+     https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6)
 
 
-  Inside ( Include folder ) rename file ( ost-sampleconfig to ost-config ) Assign permission to ost-config file allowing 
+
+- Step 2. Create a directory (file) in Windows C-drive 
+          name file PHP, download and install PHP 7.38 extract this file into empty PHP file.
+  - Download, install VC Redit & My SQL,
+  - Configure IIS to register new PHP version.
+ 
+ - Step 3. Install Osticket, inside file drag (Upload folder) to www.root name file ( osticket )
+   - (IIS manager menu) Osticket (refresh page), browse 80 (Osticket installer menu should appear)
+   - Enable following files on PHP manager ( php.imap, php.intl, php.opcache ).
+
+- Step 4. Inside ( Include folder ) rename file ( ost-sampleconfig to ost-config ) Assign permission to ost-config file allowing 
           everybody to use.
-
-- Step 4. Osticket installer menu fill out the following. help desk name, email admin name, email username, and password
-
-
-  Install Heidi SQL create database, user and password.
-          fillout rest of the Osticket menu install software.
+   - Osticket installer menu fill out the following. help desk name, email admin name, email username, and password
+   
+   - Install Heidi SQL create database, user and password.
+          fill out rest of the Osticket menu install software.
 
 - Step 5. Clean up erase Setup folder in Root file, set permission to read only and log in help desk using admin user name and password.
-
-     
+(http://localhost/osTicket/scp/login.php)     
 <h2>Configuration Steps</h2>
 
 <p>
