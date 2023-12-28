@@ -22,19 +22,29 @@ This tutorial outlines the install configuration of the open-source help desk ti
 
 <h2>Install Configuration Objectives</h2>
 
-- Step 1. Configuring IIS on Windows using CGI, download install PHP Manager Rewrite mode, Create a directory (file) in Windows C drive 
-          install PHP 7.38 file extract this file into empty file on C-drive naming it PHP.
+- Step 1. Configuring IIS on Windows using CGI.
+- download install PHP Manager and Rewrite mode.
+- Create a directory (file) in Windows C drive 
+          name it PHP, download and install PHP 7.38 extract this file into empty PHP file.
 
-- Step 2. Download install VC Redit & My SQL, Configure IIS to register new PHP version. Install Osticket extract copy (Upload folder) 
+
+- Step 2. Download, install VC Redit & My SQL,
+- Configure IIS to register new PHP version.
+- Install Osticket, extract, copy (Upload folder) 
           into www.root name file ( osticket )
   
-- Step 3. On IIS manager default Osticket (refresh page), browse 80 Osticket installer menu should appear,
-          Enable following files on PHP manager ( php.imap, php.intl, php.opcache ),
-          Inside ( Include folder ) rename file ( ost-sampleconfig to ost-config ) Assign permission to ost-config file allowing 
+- Step 3. On IIS manager default Osticket (refresh page), browse 80
+- Osticket installer menu should appear,
+          Enable following files on PHP manager ( php.imap, php.intl, php.opcache ).
+
+
+  Inside ( Include folder ) rename file ( ost-sampleconfig to ost-config ) Assign permission to ost-config file allowing 
           everybody to use.
 
 - Step 4. Osticket installer menu fill out the following. help desk name, email admin name, email username, and password
-          Install Heidi SQL create database user, password
+
+
+  Install Heidi SQL create database, user and password.
           fillout rest of the Osticket menu install software.
 
 - Step 5. Clean up erase Setup folder in Root file, set permission to read only and log in help desk using admin user name and password.
@@ -47,16 +57,17 @@ This tutorial outlines the install configuration of the open-source help desk ti
 </p>
 <p>
 Step 1. Installing IIS in windows with CGI in start menu type (control panel) go to programs, turn windows features on/off, 
-        (windows features menu) go to Internet informaation Service, World wide web services, inside Application development features 
+       (windows features menu) go to Internet information Service, World wide web services, inside Application development features 
         (check box CGI) make sure (common HTTP features) and (IIS management console) are selected as well.
         
 Install PHP manager and Rewrite mode from simple list lab instructions
 (https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVcGFildWMRig/edit#bookmark=id.cajb4ktub1km)</p>
 
-Create a directory (file) inside Windows C drive go to file folder, this pc, Windows C drive, create new file (name file PHP) 
-download PHP 7.38 (right click) extract, browse look for empty PHP folder inside C drive, extract will put files inside PHP 
+Create a directory (file) inside Windows C-drive go to file folder, this pc, Windows C-drive, create new file (name file PHP) 
+download PHP 7.38 (right click) extract, browse, look for empty PHP folder inside C-drive, extract files will start gpong inside PHP folder 
 
-Download Vc Redist and My Sql from simple list on my sql menu click typical install, standard config, name Root Password make one up.
+Download Vc Redist and My Sql from simple list
+on My Sql menu click typical install, standard config, name Root Password Password1 as (example).
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
