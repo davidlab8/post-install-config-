@@ -78,7 +78,7 @@ on My Sql menu click typical install, standard config, name Root Password Passwo
 <p>
   
  -Step 3.install Osticket inside file there is (Upload folder) open file folder, this pc, win c, inetub, www.root drag (upload) folder inside www.root folder name folder (Osticket)
- -  Go to IIS manager page sites> defaualt> Osticket folder, (action manage folder), Browse 80 (Osticket installer page appears)
+ -  Go to IIS manager page sites> default> Osticket folder, (action manage folder), Browse 80 (Osticket installer page appears)
  - Enable files for Osticket IIS manager menu go to PHP manager, enable or disable, enable following: php_imap, php_intl, php_opchache
 (refresh Osticket installer)
 
@@ -86,7 +86,7 @@ on My Sql menu click typical install, standard config, name Root Password Passwo
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  -Step 4. Rename file ossample.config to ost-config file is on windows c drive inside osticket upload folder.  
+  -Step 4. Rename file ossample.config to ost-config file is on windows c-drive inside osticket upload folder.  
   
    - Assign permission on ost-config file (right click) ost-config file property, security, advanced, disable inheritance,
 remove all inherited permission from object, add (permission) select principal, (type) everyone, check names, (basic permission) 
@@ -94,7 +94,7 @@ full control, apply (now everyone can use ost-config file )
 
   - Osticket menu fill out the following: help desk name and email, Admin first, last name, email, username, password. 
   - Set-up database for Osticket download and install Heidi Sql from (simple list) (Heidi Sql menu) new, settings username root, 
-make up password, open
+     password Password1 (example), open
 
   - Creating database (Heidi Sql menu) (right click) unamed, create new, database, (name it) osticket, install
 fill out rest of the osticket installer menu mysql name: root, mysql password:, install now (osticket program succesfully installed) 
