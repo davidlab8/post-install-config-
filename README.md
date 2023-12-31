@@ -89,22 +89,30 @@ on My Sql menu click typical install, standard config, name Root Password Passwo
 
 ![IMG_1039](https://github.com/davidlab8/post-install-config-/assets/154483052/3f6dcdc2-4f43-4f9d-b820-1263458af247)  
 
- -Step 3.install Osticket inside file there is (Upload folder) open file folder, this pc, win c, inetub, www.root drag (upload) folder inside www.root folder name folder (Osticket)
- -  Go to IIS manager page sites> default> Osticket folder, (action manage folder), Browse 80 (Osticket installer page appears)
+ -Step 3. install Osticket inside file there is (Upload folder) open file folder, this pc, win c, inetub, www.root drag (upload) folder inside www.root folder name folder (Osticket)
+ - Start, IIS, IIS manager page sites> default> Osticket folder, (action manage folder), Browse 80 (Osticket installer page appears)
  - Enable files for Osticket IIS manager menu go to PHP manager, enable or disable, enable following: php_imap, php_intl, php_opchache
 (refresh Osticket installer)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  -Step 4. Rename file ossample.config to ost-config file is on windows c-drive inside osticket upload folder.  
+![IMG_1042](https://github.com/davidlab8/post-install-config-/assets/154483052/b0986ac9-9954-40ac-be24-769afe3b05ac)
+
+![IMG_1043](https://github.com/davidlab8/post-install-config-/assets/154483052/3a16d361-7239-4236-8d56-a6abb03fe42d)
+
+![IMG_1044](https://github.com/davidlab8/post-install-config-/assets/154483052/457c1809-6a26-4dad-9d72-33412e41ca8a)
+
+![IMG_1045](https://github.com/davidlab8/post-install-config-/assets/154483052/44eb1f7d-036b-4e0c-80f4-dff7bb41ea13)
+
+![IMG_1046](https://github.com/davidlab8/post-install-config-/assets/154483052/c0ee1f7b-daa8-446a-a3bd-4ba0831ee1c6)
+  
+  
+  
+  -Step 4. Rename file ossample.config to ost-config file is on windows c-drive inside www.root, osticket, include folder.  
   
    - Assign permission on ost-config file (right click) ost-config file property, security, advanced, disable inheritance,
 remove all inherited permission from object, add (permission) select principal, (type) everyone, check names, (basic permission) 
 full control, apply (now everyone can use ost-config file )
 
-  - Osticket menu fill out the following: help desk name and email, Admin first, last name, email, username, password. 
+  - Osticket installer, (click) continue, osticket menu fill out the following: help desk name and email, Admin first, last name, email, username, password. 
   - Set-up database for Osticket download and install Heidi Sql from (simple list) (Heidi Sql menu) new, settings username root, 
      password Password1 (example), open
 
