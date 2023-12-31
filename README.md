@@ -127,10 +127,15 @@ full control, apply (now everyone can use ost-config file )
   - Creating database (Heidi Sql menu) (right click) unamed, create new, database, (name it) osticket, install
 fill out rest of the osticket installer menu mysql name: root, mysql password:, install now (osticket program succesfully installed) 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![IMG_1052](https://github.com/davidlab8/post-install-config-/assets/154483052/f27ff967-ee9d-4b29-bfa5-feea903466c0)
+
+![IMG_1053](https://github.com/davidlab8/post-install-config-/assets/154483052/17b21ac5-7b99-4403-b30a-e16a24f7760f)
+
+![IMG_1054](https://github.com/davidlab8/post-install-config-/assets/154483052/f75a16eb-8143-47ed-9eef-6418436b0c16)
+
+
+
+
   -Step 5. Clean up erase setup folder in root file (file folder) thispc, win-c, instpub, www.root, inside (osticket folder) 
 erase setup folder.
 
