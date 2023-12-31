@@ -103,8 +103,17 @@ on My Sql menu click typical install, standard config, name Root Password Passwo
 
 ![IMG_1046](https://github.com/davidlab8/post-install-config-/assets/154483052/c0ee1f7b-daa8-446a-a3bd-4ba0831ee1c6)
   
+  ![IMG_1047](https://github.com/davidlab8/post-install-config-/assets/154483052/ee48cf31-6564-4a6a-bbe0-2485bcb8e1a4)
   
+![IMG_1048](https://github.com/davidlab8/post-install-config-/assets/154483052/3d114068-7ad4-49f9-8840-173e0f599ebd)
   
+![IMG_1049](https://github.com/davidlab8/post-install-config-/assets/154483052/89dad401-191e-4853-8650-1c8583d0406d)
+
+![IMG_1050](https://github.com/davidlab8/post-install-config-/assets/154483052/bcc6b9e2-30fd-47e3-85aa-4b94999a5224)
+
+![IMG_1051](https://github.com/davidlab8/post-install-config-/assets/154483052/b2de228c-0f67-4ff8-8184-7d87a18bb582)
+
+
   -Step 4. Rename file ossample.config to ost-config file is on windows c-drive inside www.root, osticket, include folder.  
   
    - Assign permission on ost-config file (right click) ost-config file property, security, advanced, disable inheritance,
