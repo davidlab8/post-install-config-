@@ -55,9 +55,6 @@ This tutorial is a step by step guide on the install configuration of the Ostick
 
 ![11F16806-9FDB-4132-994F-C047F3EF7A3C](https://github.com/davidlab8/post-install-config-/assets/154483052/ad62cc66-e4a1-4bfc-9259-6c16e430b894)
 
-
-
-   
    - Step 1.  On Azure create Resource Group and VM1 (Windows 10), connect VM1 to remote desktop  
   
   - Installing IIS in windows with CGI in start menu type (control panel) go to programs, turn windows features on/off, 
@@ -66,10 +63,15 @@ This tutorial is a step by step guide on the install configuration of the Ostick
         
   - Install PHP manager and Rewrite mode from simple list lab instructions
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![573CC34D-7BC3-4762-BBE3-D002DD94FD0B](https://github.com/davidlab8/post-install-config-/assets/154483052/95b36438-96c3-4f16-b33d-c3ff718cb27a)
+
+![7F4FC2B8-A6A5-47DA-9F17-15C6E3589306](https://github.com/davidlab8/post-install-config-/assets/154483052/608a2435-3819-435a-bba5-e8d75224e64b)
+
+![41E5C561-3733-49D3-89C8-D3B9ED170807](https://github.com/davidlab8/post-install-config-/assets/154483052/1885ec75-4358-4031-b1dd-13d7c9a61a57)
+
+![7D40F681-FB8D-4A4D-A0BE-08B88F91710B](https://github.com/davidlab8/post-install-config-/assets/154483052/158aafef-90e5-4dee-8153-3dc810af8947)
+
+
 - Step 2. Create a directory (file) inside Windows C-drive go to file folder, this pc, Windows C-drive, create new file (name file PHP) 
 download PHP 7.38 (right click) extract, browse, look for empty PHP folder inside C-drive, extract files will start going inside PHP folder 
 
