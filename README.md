@@ -8,8 +8,7 @@ This tutorial is a step by step guide on the install configuration of the Ostick
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
-
+- ### [YouTube: OsTicket Introduction](https://www.youtube.com/watch?v=tj4al4ytCf0)
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
