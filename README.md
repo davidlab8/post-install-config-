@@ -91,8 +91,7 @@ on My Sql menu click typical install, standard config, name Root Password Passwo
 
  -Step 3. install Osticket inside file there is (Upload folder) open file folder, this pc, win c, inetub, www.root drag (upload) folder inside www.root folder name folder (Osticket)
  - Start, IIS, IIS manager page sites> default> Osticket folder, (action manage folder), Browse 80 (Osticket installer page appears)
- - Enable files for Osticket IIS manager menu go to PHP manager, enable or disable, enable following: php_imap, php_intl, php_opchache
-(refresh Osticket installer)
+ - Enable files for Osticket IIS manager menu go to PHP manager, enable or disable, enable following: (right click) php_imap, php_intl, php_opchache (refresh Osticket installer)
 
 ![IMG_1042](https://github.com/davidlab8/post-install-config-/assets/154483052/b0986ac9-9954-40ac-be24-769afe3b05ac)
 
