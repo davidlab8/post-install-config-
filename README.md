@@ -81,11 +81,14 @@ on My Sql menu click typical install, standard config, name Root Password Passwo
   - Register new PHP version to PHP manager go to start type iis (run as admin) PHP manager, register new PHP version,
         Browse, look for PHP CGI under PHP folder located inside Windows C-drive.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-  
+![IMG_1038](https://github.com/davidlab8/post-install-config-/assets/154483052/d72a00e7-3e1a-40c7-8eb6-5723bc95a39f)
+
+![IMG_1040 2](https://github.com/davidlab8/post-install-config-/assets/154483052/2ca1590e-70b4-4043-9e3e-ca07f2f7fc94)
+
+![IMG_1041](https://github.com/davidlab8/post-install-config-/assets/154483052/2c941947-5e1a-402f-8cb9-7a0f3539dfb0)
+
+![IMG_1039](https://github.com/davidlab8/post-install-config-/assets/154483052/3f6dcdc2-4f43-4f9d-b820-1263458af247)  
+
  -Step 3.install Osticket inside file there is (Upload folder) open file folder, this pc, win c, inetub, www.root drag (upload) folder inside www.root folder name folder (Osticket)
  -  Go to IIS manager page sites> default> Osticket folder, (action manage folder), Browse 80 (Osticket installer page appears)
  - Enable files for Osticket IIS manager menu go to PHP manager, enable or disable, enable following: php_imap, php_intl, php_opchache
