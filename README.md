@@ -47,10 +47,17 @@ This tutorial is a step by step guide on the install configuration of the Ostick
 (http://localhost/osTicket/scp/login.php)     
 <h2>Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![AE1C4177-518A-4E07-B5B0-B77FF385D2AE](https://github.com/davidlab8/post-install-config-/assets/154483052/4d9cbca4-89b0-47f7-94f5-96a133307c64)
+
+![7CD0DD1C-CDFA-42B8-A48C-64D215D71E61](https://github.com/davidlab8/post-install-config-/assets/154483052/e7445a8a-487e-42fc-80d2-4d0adf53fc7a)
+
+![B25156E8-27E7-492E-AB53-F5752811D9FC](https://github.com/davidlab8/post-install-config-/assets/154483052/5aca4b33-8166-4b54-886e-4b7c8130e47e)
+
+![11F16806-9FDB-4132-994F-C047F3EF7A3C](https://github.com/davidlab8/post-install-config-/assets/154483052/ad62cc66-e4a1-4bfc-9259-6c16e430b894)
+
+
+
+   
    - Step 1.  On Azure create Resource Group and VM1 (Windows 10), connect VM1 to remote desktop  
   
   - Installing IIS in windows with CGI in start menu type (control panel) go to programs, turn windows features on/off, 
