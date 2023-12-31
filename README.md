@@ -133,14 +133,14 @@ fill out rest of the osticket installer menu mysql name: root, mysql password:, 
 
 ![IMG_1054](https://github.com/davidlab8/post-install-config-/assets/154483052/f75a16eb-8143-47ed-9eef-6418436b0c16)
 
+![IMG_1055](https://github.com/davidlab8/post-install-config-/assets/154483052/f95aca5b-c718-4230-a01c-e31712e0f3a2)
 
-
+![IMG_1056](https://github.com/davidlab8/post-install-config-/assets/154483052/d33478be-c050-4818-92d5-ba9dc1ac0c03)
 
   -Step 5. Clean up erase setup folder in root file (file folder) thispc, win-c, instpub, www.root, inside (osticket folder) 
 erase setup folder.
 
-  - Set permissions for read-only go to (include folder), ost-config file, (right click), properties, security, advanced, (click) everyone
-edit, leave Read and Read & execute boxes checked only, apply
+  - Set permissions for read-only (include folder) this pc, win-c, inetpub, www.root, osticket, (include folder) ost-config file, (right click), properties, security, advanced, (click) everyone edit, leave Read and Read & execute boxes checked only, apply
 
   - Log in help desk osticket 
 (http://localhost/osTicket/scp/login.php)http://localhost/osTicket/scp/login.php
