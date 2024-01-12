@@ -46,6 +46,8 @@ This tutorial is a step by step guide on the install configuration of the Ostick
 (http://localhost/osTicket/scp/login.php)     
 <h2>Configuration Steps</h2>
 
+STEP 1.
+
 ![AE1C4177-518A-4E07-B5B0-B77FF385D2AE](https://github.com/davidlab8/post-install-config-/assets/154483052/4d9cbca4-89b0-47f7-94f5-96a133307c64)
  - Step 1.  On Azure create Resource Group and VM1 (Windows 10), connect VM1 to remote desktop
 
@@ -58,6 +60,8 @@ This tutorial is a step by step guide on the install configuration of the Ostick
 
 ![11F16806-9FDB-4132-994F-C047F3EF7A3C](https://github.com/davidlab8/post-install-config-/assets/154483052/ad62cc66-e4a1-4bfc-9259-6c16e430b894)
   - Install PHP manager and Rewrite mode from simple list lab instructions
+
+STEP 2.
 
 ![573CC34D-7BC3-4762-BBE3-D002DD94FD0B](https://github.com/davidlab8/post-install-config-/assets/154483052/95b36438-96c3-4f16-b33d-c3ff718cb27a)
 - Step 2. Create a directory (file) inside Windows C-drive go to file folder, this pc, Windows C-drive, create new file (name file PHP) 
@@ -73,6 +77,8 @@ on My Sql menu click typical install, standard config, name Root Password Passwo
 ![7D40F681-FB8D-4A4D-A0BE-08B88F91710B](https://github.com/davidlab8/post-install-config-/assets/154483052/158aafef-90e5-4dee-8153-3dc810af8947)
  - Browse, look for PHP CGI under PHP folder located inside Windows C-drive.
 
+STEP 3.
+
 ![IMG_1038](https://github.com/davidlab8/post-install-config-/assets/154483052/d72a00e7-3e1a-40c7-8eb6-5723bc95a39f)
  -Step 3. install Osticket inside file there is (Upload folder) open file folder, this pc, win c, inetub, www.root drag (upload) folder inside www.root folder name folder (Osticket)
 
@@ -84,6 +90,8 @@ on My Sql menu click typical install, standard config, name Root Password Passwo
 
 ![IMG_1041](https://github.com/davidlab8/post-install-config-/assets/154483052/2c941947-5e1a-402f-8cb9-7a0f3539dfb0)
  - Enable following: (right click) php_imap, php_intl, php_opchache (refresh Osticket installer)
+
+STEP 4.
 
 ![IMG_1042](https://github.com/davidlab8/post-install-config-/assets/154483052/b0986ac9-9954-40ac-be24-769afe3b05ac)
 -Step 4. Rename file ossample.config to ost-config file is on windows c-drive inside www.root, osticket, include folder.
@@ -118,6 +126,8 @@ remove all inherited permission from object.
 ![IMG_1051](https://github.com/davidlab8/post-install-config-/assets/154483052/b2de228c-0f67-4ff8-8184-7d87a18bb582)
   - Osticket program succesfully installed.
 
+STEP 5.
+
 ![IMG_1052](https://github.com/davidlab8/post-install-config-/assets/154483052/f27ff967-ee9d-4b29-bfa5-feea903466c0)
   -Step 5. Clean up erase setup folder in root file (file folder) thispc, win-c, instpub, www.root, inside (osticket folder) 
 erase setup folder.
@@ -135,7 +145,6 @@ erase setup folder.
 type admin username and password.
 
 ![IMG_1056](https://github.com/davidlab8/post-install-config-/assets/154483052/d33478be-c050-4818-92d5-ba9dc1ac0c03)
-
- - Now your inside Osticket Menu as Admin. 
+- Now your inside Osticket Menu as Admin. 
 
 
